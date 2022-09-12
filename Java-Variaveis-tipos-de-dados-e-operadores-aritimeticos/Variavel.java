@@ -18,5 +18,9 @@ class Variaveis {
 
     final String NUMERO_CONSTANTE = "Variavel que é constante";
     System.out.println(NUMERO_CONSTANTE);
+
+    int i = 1000000000;
+    // int i = 10000000000; numero muito grande para o tipo "int"
+    System.out.println(i);
   }
 };
