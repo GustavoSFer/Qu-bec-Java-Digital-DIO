@@ -4,6 +4,10 @@ public class Main {
     Calculadora.subtracao(4, 1);
     Calculadora.multiplicacao(2, 12);
     Calculadora.divisão(10, 5);
+
     Mensagem.horario(152);
+    Mensagem.horario(10);
+    Mensagem.horario(16);
+    Mensagem.horario(22);
   }
 }
