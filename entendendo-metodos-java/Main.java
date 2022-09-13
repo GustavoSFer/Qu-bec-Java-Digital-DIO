@@ -9,5 +9,10 @@ public class Main {
     Mensagem.horario(10);
     Mensagem.horario(16);
     Mensagem.horario(22);
+
+    Quadrilatero.area(50);
+    Quadrilatero.area(10d,20d);
+    Quadrilatero.area(10,20, 40);
+
   }
 }
