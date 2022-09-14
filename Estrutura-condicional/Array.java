@@ -5,5 +5,9 @@ public class Array {
     for (int i = 0; i < nomes.length; i ++) {
       System.out.println("A posição do '" + nomes[i] + "' é: " + i);
     }
+
+    for (String nome : nomes) {
+      System.out.println(nome);
+    }
   }
 }
