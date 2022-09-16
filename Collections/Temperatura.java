@@ -15,9 +15,9 @@ class Temperatura {
     Integer soma = temperaturas.stream().mapToInt(Integer::intValue).sum();
     Integer tempMedia = soma / 6;
 
-    for (Integer teste : temperaturas) {
-      if (teste > tempMedia) {
-        tempAcimaDaMedia.add(teste);
+    for (Integer tempAtual : temperaturas) {
+      if (tempAtual > tempMedia) {
+        tempAcimaDaMedia.add(tempAtual);
       }
     };
 
