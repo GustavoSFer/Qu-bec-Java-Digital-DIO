@@ -38,7 +38,7 @@ public class Crime {
         System.out.println("Assassina");
         break;
       default:
-        System.out.println("Livre");  
+        System.out.println("Inocente");  
     }
     teclado.close();
   }
