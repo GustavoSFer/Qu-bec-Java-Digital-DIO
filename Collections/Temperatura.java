@@ -22,7 +22,7 @@ class Temperatura {
     };
 
     System.out.println("A temperatura média ficou em: " + tempMedia);
-    System.out.println(" as temperatura acima da média são: " + tempAcimaDaMedia);
+    System.out.println("As temperatura acima da média são: " + tempAcimaDaMedia);
     teclado.close();
   }
 }
