@@ -12,6 +12,10 @@ public class Veiculo {
     this.capacidadeTanque = capacidadeTanque;
   };
 
+  Integer encherTanque(Integer valorCombustivel) {
+    return this.capacidadeTanque * valorCombustivel;
+  }
+
   void setModelo(String modelo) {
     this.modelo = modelo;
   };
