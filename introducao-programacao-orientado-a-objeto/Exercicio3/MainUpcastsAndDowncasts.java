@@ -7,7 +7,7 @@ public class MainUpcastsAndDowncasts {
     Funcionario gerente = new Gerente("Pedro");
     Funcionario vendedor = new Vendedor("Ricardo");
 
-    // Downcasts
+    // Downcasts - muitas vezes gera erro, porque funcionario para vendedor, pode ter coisas no vendedor que nao tem em funcionario, fazendo assim dar erros. - downcasts não é recomendado.
     Vendedor vendedor_ = (Vendedor) new Funcionario("Gustavo");
   }
 }
