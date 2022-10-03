@@ -15,5 +15,7 @@ public class main {
     contaCorrente.imprimirExtrato();
     System.out.println();
     contaPoupanca.imprimirExtrato();
+
+    contaCorrente.sacar(200);
   }
 }
