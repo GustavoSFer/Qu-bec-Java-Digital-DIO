@@ -12,5 +12,17 @@ public class Operadores {
     double d = 10 % 2;
     System.out.println(d);
 
+    int x = 8;
+    int y = ++x;
+
+    System.out.println("x: " + x);
+    System.out.println("y: " + y);
+
+    int t = 8;
+    int m = t++;
+
+    System.out.println("t: " + t);
+    System.out.println("m: " + m);
+
   }
 }
