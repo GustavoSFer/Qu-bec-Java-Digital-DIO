@@ -11,5 +11,8 @@ public class ArraysSimples {
     int posicao = Arrays.binarySearch(paises, "BRASIL");
     System.out.println(posicao);
 
+    Arrays.sort(paises, 0, paises.length);
+    System.out.println(Arrays.toString(paises));
+
   }
 }
